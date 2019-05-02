@@ -3,7 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true">
+    android:fitsSystemWindows="true"
+    android:background="@drawable/uni6">
 
     <LinearLayout
         android:orientation="vertical"
@@ -23,7 +24,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textCapWords"
-                android:hint="Username" />
+                android:hint="Username"
+                android:textColor="#000000"/>
         </android.support.design.widget.TextInputLayout>
 
         <!--  Name Label -->
@@ -36,7 +38,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textCapWords"
-                android:hint="Name" />
+                android:hint="Name"
+                android:textColor="#000000"/>
         </android.support.design.widget.TextInputLayout>
 
         <!-- Password Label -->
@@ -49,7 +52,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
-                android:hint="Password"/>
+                android:hint="Password"
+                android:textColor="#000000"/>
         </android.support.design.widget.TextInputLayout>
 
         <!-- Register Button -->
@@ -69,6 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
             android:text="Already a member? Login"
+            android:textColor="#000000"
             android:gravity="center"
             android:textSize="16dip"
             android:onClick="handleLogin"

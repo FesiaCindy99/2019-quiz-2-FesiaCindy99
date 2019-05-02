@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".activities.SaveTodoActivity">
+    tools:context=".activities.SaveTodoActivity"
+    android:background="@drawable/uni3">
 
     <!-- Username Label -->
     <android.support.design.widget.TextInputLayout
@@ -17,7 +18,8 @@
         <EditText android:id="@+id/input_todo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="What do you want?" />
+            android:hint="What do you want?"
+            android:textColor="#000000"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.v7.widget.AppCompatButton
