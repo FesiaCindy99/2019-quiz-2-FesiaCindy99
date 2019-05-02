@@ -49,6 +49,8 @@
             android:padding="12dp"
             android:text="Login"
             android:onClick="handleLogin"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custom_button"
             />
 
         <TextView android:id="@+id/link_register"
