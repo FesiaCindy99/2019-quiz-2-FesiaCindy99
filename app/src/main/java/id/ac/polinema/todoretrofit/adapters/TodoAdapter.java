@@ -99,7 +99,6 @@ public class TodoAdapter extends RecyclerView.Adapter<TodoAdapter.ViewHolder> {
     public interface OnTodoClickedListener {
         void onClick(Todo todo);
     }
-
     public interface OnTodoClickedDeletedListener {
         void onClickDeleted(Todo todo);
     }
